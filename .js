@@ -8,17 +8,25 @@
 // }
 
 
-let color = 'vermelho';
-switch(color){
-    case 'vermelho':    
-    console.log ('pare'); 
-    break;
+// let color = 'vermelho';
+// switch(color){
+//     case 'vermelho':    
+//     console.log ('pare'); 
+//     break;
     
-    case 'amarelo':
-    console.log ('atenção');
-    break
+//     case 'amarelo':
+//     console.log ('atenção');
+//     break
 
-    case 'verde':
-    console.log ('siga');
-    break;
+//     case 'verde':
+//     console.log ('siga');
+//     break;
+// }
+
+let numero = 124;
+
+if (numero  % 2  === 0){
+    console.log('número Par')
+} else {
+    console.log('número Ìmpar.')
 }
